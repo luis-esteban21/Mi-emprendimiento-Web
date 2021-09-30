@@ -247,5 +247,16 @@
     grid-column: span 1;
   }
 }
+.header__hero {
+  background-image: url("/assets/img/desarrolloweb2021t.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 769px) {
+  .header__hero {
+    height: 100%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

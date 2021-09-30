@@ -1,0 +1,13 @@
+.header {
+
+    &__hero{
+        background-image: url("/assets/img/desarrolloweb2021t.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        @include respond-to($laptop){
+         height: 100%;
+        }
+    }
+}
