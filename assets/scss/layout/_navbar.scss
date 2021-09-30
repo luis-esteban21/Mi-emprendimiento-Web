@@ -1,0 +1,18 @@
+.navbar{
+
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+        text-decoration: none;
+    }
+
+    &__link{
+        display: flex;
+    }
+
+    &__logo{
+        width: 10%;
+    }
+}

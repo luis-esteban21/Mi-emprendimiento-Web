@@ -248,15 +248,25 @@
   }
 }
 .header__hero {
-  background-image: url("/assets/img/desarrolloweb2021t.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  height: 500px;
 }
 @media (min-width: 769px) {
   .header__hero {
-    height: 100%;
+    width: 100%;
   }
+}
+
+.navbar__list {
+  list-style: none;
+}
+.navbar__item {
+  text-decoration: none;
+}
+.navbar__link {
+  display: flex;
+}
+.navbar__logo {
+  width: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
