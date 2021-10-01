@@ -1,7 +1,8 @@
 .header {
 
     &__hero{
-        height: 500px;
+        background-image: url("/assets/img/desarrolloweb2021t.svg");
+        width: 100%;
         
 
         @include respond-to($laptop){

@@ -248,7 +248,8 @@
   }
 }
 .header__hero {
-  height: 500px;
+  background-image: url("/assets/img/desarrolloweb2021t.svg");
+  width: 100%;
 }
 @media (min-width: 769px) {
   .header__hero {
